@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/carddeck.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/report01.js" type="text/javascript" defer></script>
+    <script src="js/carddeck.js" type="text/javascript" defer></script>
+
+
+    <!-- 3D plot -->
+    <script src='https://cdn.plot.ly/plotly-2.18.0.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+    <script src="plotly3d.js" type="text/javascript" defer></script>
+
+
+</head>
+
+<body class="w3-content body mainbody" >
+
+    <div class="row">
+      <div class="small-7 medium-5 large-4 column end small-centered card">
+        <div class="card-top">
+
+          <div class="grid-container">
+            <div class="grid-item left">
+              <img class="card-img" src="imgs/chemistry-ideogram.svg"/>
+            </div>
+            <div class="grid-item middle">
+
+                <div class="overlay">
+                    <table class="card_table">
+                      <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                      </tr>
+                      <tr>
+                          <td>Sample reception</td>
+                          <td>2023-01-12: 10:12:11</td>
+                          <td>&#10004;</td>
+                      </tr>
+                      <tr>
+                          <td>Storage Conditions</td>
+                          <td>Room Temp</td>
+                          <td>&#10004;</td>
+                      </tr>
+                      <tr>
+                          <td>Sample preparation</td>
+                          <td>2023-01-13: 09:16:01</td>
+                          <td>&#10004;</td>
+                      </tr>
+                      <tr>
+                          <td>Dilution</td>
+                          <td>1:4</td>
+                          <td>&#10004;</td>
+                      </tr>
+                      <tr>
+                          <td>Internal Standard</td>
+                          <td>TMS</td>
+                          <td>&#10004;</td>
+                      </tr>
+                    </table>
+                </div>
+
+            </div>
+            <div class="grid-item right">
+                <div class="block_id">Block ID: 65cdb53mne</div>
+            </div>
+          </div>
+        </div>
+        <div class="card-bottom text-center">
+          <h2 class="card-title">Sample Preparation Data</h2>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="small-7 medium-5 large-4 column end small-centered card">
+        <div class="card-top">
+
+          <div class="grid-container">
+            <div class="grid-item left">
+              <img class="card-img" src="imgs/toppng.com-resolution-28342751-data-analysis-icon-2834x2751.png"/>
+            </div>
+            <div class="grid-item middle">
+
+                <div class="overlay">
+                    <table class="card_table">
+                      <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                      </tr>
+                      <tr>
+                          <td>Number of assigned componants</td>
+                          <td>82</td>
+                      </tr>
+                      <tr>
+                          <td>Identified outliers</td>
+                          <td>2</td>
+                      </tr>
+                      <tr>
+                          <td>Suspected Outliers</td>
+                          <td>5</td>
+                      </tr>
+                      <tr>
+                          <td>Assigned Cluster</td>
+                          <td>North East Tunisia</td>
+                      </tr>
+                      <tr>
+                          <td>Number of batches in Cluster</td>
+                          <td>72</td>
+                      </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="grid-item right">
+                <div class="block_id">Block ID: 215f25bb15</div>
+            </div>
+          </div>
+        </div>
+        <div class="triangle">
+          <div class="circle-button" id="circleDrop_1" onclick="toggleDiv('card-middle_1')"><img class="close" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/324479/close.svg"/></div>
+        </div>
+        <div id="card-middle_1" class="card-middle">
+          <h5 class="more">List of Components</h5>
+
+            <ul class="list-group">
+                <li>Item 1<span class="badge">2.8</span></li>
+                <li>Item 2<span class="badge">14.8</span></li>
+                <li>Item 3<span class="badge">13.3</span></li>
+                <li>Item 4<span class="badge">4.5</span></li>
+                <li>Item 5<span class="badge">2.5</span></li>
+                <li>Item 6<span class="badge">3.3</span></li>
+                <li>Item 7<span class="badge">16.5</span></li>
+                <li>Item 8<span class="badge">3.8</span></li>
+                <li>Item 9<span class="badge">3</span></li>
+                <li>Item 10<span class="badge">7.3</span></li>
+                <li>Item 11<span class="badge">1.8</span></li>
+                <li>Item 12<span class="badge">18.3</span></li>
+                <li>Item 13<span class="badge">15.9</span></li>
+                <li>Item 14<span class="badge">7.1</span></li>
+                <li>Item 15<span class="badge">4.7</span></li>
+                <li>Item 16<span class="badge">18.6</span></li>
+                <li>Item 17<span class="badge">1.4</span></li>
+                <li>Item 18<span class="badge">0.5</span></li>
+                <li>Item 19<span class="badge">17.8</span></li>
+                <li>Item 20<span class="badge">3.6</span></li>
+                <li>Item 21<span class="badge">15.1</span></li>
+                <li>Item 22<span class="badge">9.1</span></li>
+                <li>Item 23<span class="badge">0.9</span></li>
+                <li>Item 24<span class="badge">7.6</span></li>
+                <li>Item 25<span class="badge">9.5</span></li>
+                <li>Item 26<span class="badge">18.5</span></li>
+                <li>Item 27<span class="badge">10.7</span></li>
+                <li>Item 28<span class="badge">3.3</span></li>
+                <li>Item 29<span class="badge">10.8</span></li>
+                <li>Item 30<span class="badge">17.1</span></li>
+                <li>Item 31<span class="badge">6.3</span></li>
+                <li>Item 32<span class="badge">18.7</span></li>
+                <li>Item 33<span class="badge">5.2</span></li>
+                <li>Item 34<span class="badge">19</span></li>
+                <li>Item 35<span class="badge">19.5</span></li>
+                <li>Item 36<span class="badge">16.1</span></li>
+                <li>Item 37<span class="badge">15.8</span></li>
+                <li>Item 38<span class="badge">5.7</span></li>
+                <li>Item 39<span class="badge">9.2</span></li>
+                <li>Item 40<span class="badge">18.9</span></li>
+                <li>Item 41<span class="badge">1.4</span></li>
+                <li>Item 42<span class="badge">14.5</span></li>
+                <li>Item 43<span class="badge">2</span></li>
+                <li>Item 44<span class="badge">6.1</span></li>
+                <li>Item 45<span class="badge">5.6</span></li>
+                <li>Item 46<span class="badge">11.2</span></li>
+                <li>Item 47<span class="badge">1.8</span></li>
+                <li>Item 48<span class="badge">17</span></li>
+                <li>Item 49<span class="badge">13.6</span></li>
+                <li>Item 50<span class="badge">8.1</span></li>
+                <li>Item 51<span class="badge">5.7</span></li>
+                <li>Item 52<span class="badge">0.9</span></li>
+                <li>Item 53<span class="badge">17.3</span></li>
+                <li>Item 54<span class="badge">6.2</span></li>
+                <li>Item 55<span class="badge">15.6</span></li>
+                <li>Item 56<span class="badge">12.8</span></li>
+                <li>Item 57<span class="badge">18.5</span></li>
+                <li>Item 58<span class="badge">3.9</span></li>
+                <li>Item 59<span class="badge">11</span></li>
+                <li>Item 60<span class="badge">14.8</span></li>
+                <li>Item 61<span class="badge">1.5</span></li>
+                <li>Item 62<span class="badge">10.5</span></li>
+                <li>Item 63<span class="badge">12.7</span></li>
+                <li>Item 64<span class="badge">7.6</span></li>
+                <li>Item 65<span class="badge">2.8</span></li>
+                <li>Item 66<span class="badge">11.1</span></li>
+                <li>Item 67<span class="badge">5</span></li>
+                <li>Item 68<span class="badge">5.1</span></li>
+                <li>Item 69<span class="badge">2.9</span></li>
+                <li>Item 70<span class="badge">2.3</span></li>
+                <li>Item 71<span class="badge">14.9</span></li>
+
+
+            </ul>
+
+
+
+
+        </div>
+        <div class="card-bottom text-center">
+          <h2 class="card-title">Sample Analysis Data</h2>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="row">
+      <div class="small-7 medium-5 large-4 column end small-centered card">
+        <div class="card-top">
+
+          <div class="grid-container">
+            <div class="grid-item left">
+              <img class="card-img" src="imgs/1410828541.svg"/>
+            </div>
+            <div class="grid-item middle">
+
+
+        <div id="wrapper">
+			<div class="card-drop">
+				<a class='toggle' href="#">
+					<i class='icon-suitcase'></i>
+					<span class='label-active'>Batch 1234</span>
+                    <img class="spectra" src="imgs/NMR_example_wiki.png"/>
+				</a>
+				<ul>
+					<li class='active'>
+						<a data-label="Batch 4365" href="#"><i class='icon-suitcase'></i>
+                            Batch 4365
+                        </a>
+
+					</li>
+					<li>
+						<a data-label="Batch 2345" href="#"><i class='icon-magic'></i> Batch 2345</a>
+
+					</li>
+					<li >
+						<a data-label="Batch 7356" href="#"><i class='icon-bolt'></i> Batch 7356</a>
+
+					</li>
+					<li>
+						<a data-label="Batch 2345" href="#"><i class='icon-tint'></i> Batch 2345</a>
+
+					</li>
+					<li>
+						<a data-label="Batch 7453" href="#"><i class='icon-camera-retro'></i> Batch 7453</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+            </div>
+            <div class="grid-item right">
+                <div class="block_id">Block ID: 342cdb53mes</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="card-middle_2" class="card-middle" style="display:block">
+            <div class="container">
+
+            </div>
+        <div class="card-bottom text-center">
+          <h2 class="card-title">Fingerprint spectrum</h2>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="small-7 medium-5 large-4 column end small-centered card">
+        <div class="card-top">
+
+          <div class="grid-container cluster-container">
+            <div class="grid-item left">
+              <img class="card-img" src="imgs/Noun_project_network_icon_1365244_cc.svg"/>
+            </div>
+            <div class="grid-item middle">
+
+                <div class="overlay">
+                    <div id='myDiv'></div>
+                </div>
+
+            </div>
+            <div class="grid-item right">
+                <div class="block_id"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card-bottom text-center">
+          <h2 class="card-title">Clustering analysis</h2>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
